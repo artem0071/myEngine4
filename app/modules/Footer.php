@@ -15,6 +15,6 @@ class Footer
             $myJS = array_merge($mainJS, $addJS);
         else $myJS = $mainJS;
 
-        require VIEWS.'Footer'.PHP;
+        require VIEWS.'myFooter'.PHP;
     }
 }

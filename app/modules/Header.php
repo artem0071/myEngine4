@@ -15,6 +15,6 @@ class Header
             $myJS = array_merge($mainJS, $addJS);
         else $myJS = $mainJS;
 
-        require VIEWS.'Header'.PHP;
+        require VIEWS.'myHeader'.PHP;
     }
 }

@@ -1,7 +1,7 @@
 <?php
 
 spl_autoload_register(function ($className){
-    $folders = [CORE, DB, CONTROLLERS, VIEWS];
+    $folders = [CORE, DB, CONTROLLERS, VIEWS, MODULES];
     foreach ($folders as $folder) {
         if (file_exists($folder.$className.PHP)){
             require_once $folder.$className.PHP;
